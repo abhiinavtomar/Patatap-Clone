@@ -5,35 +5,25 @@ body, html {
 	font-family: "Avenir", "Montserrat";
 }
 
-@media only screen and (max-width: ) {
-
+@media only screen and (max-width: 400px) {
+	#header {
+		font-size: 15px;
+	}
 }
 
 canvas {
 	width: 100%;
-	height: 94%;
+	height: calc(100% - 50px);
 }
 
-
-#descme {
-	background-color: white;	
-	color: steelblue;
-	width: 20%;
-	display: block;
-	font-weight: 900;
-	border-radius: 20px;
-	text-align: center;
-	padding: 10px;
+#header {
+	text-align: center; 
+	font-size: 20px; 
+	color: white;
 }
 
-#tryme {
-	display: block; 	
-	margin: 0 auto;
-	text-align: center;
-	color: black;
-	background-color: white;
-	border-radius: 20px;
-	font-weight: 900;
-	font-size: 25px; 
-	width: 40%;
+#myInfo {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
 }
